@@ -1,0 +1,23 @@
+-- Clean, analysis-ready table
+CREATE TABLE amazon (
+    OrderID INT PRIMARY KEY,
+    OrderDate DATE,
+    CustomerID INT,
+    CustomerName VARCHAR(100),
+    ProductID INT,
+    ProductName VARCHAR(150),
+    Category VARCHAR(50),
+    Brand VARCHAR(50),
+    Quantity INT,
+    UnitPrice DECIMAL(10,2),
+    Discount DECIMAL(10,2),
+    Tax DECIMAL(10,2),
+    ShippingCost DECIMAL(10,2),
+    TotalAmount DECIMAL(10,2),
+    PaymentMethod VARCHAR(30),
+    OrderStatus VARCHAR(30),
+    City VARCHAR(50),
+    State VARCHAR(50),
+    Country VARCHAR(50),
+    SellerID INT
+);
